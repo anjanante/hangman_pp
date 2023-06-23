@@ -2,8 +2,12 @@
 
 namespace Hangman\Tests;
 
-use Hangman\Word;
+//use Hangman\Word;
 require(__DIR__.'/../../../src/functions.php');
+require_once(__DIR__.'/../../../src/Classtest.php');
+
+use Hangman\Classtest;
+use Hangman\Word;
 use PHPUnit\Framework\TestCase;
 
 
@@ -19,6 +23,44 @@ final class WordTest extends TestCase
     {
         $this->expectException(\InvalidArgumentException::class);
         tryLetter('5');
+    }
+
+    public function testStub(): void
+    {
+        //#1Create a stub for the SomeClass class.
+//        $stub = $this->createStub(Classtest::class);
+
+        //#2 Create a stub for the SomeClass class.
+        $stub = $this->getMockBuilder(Classtest::class)
+            ->disableOriginalConstructor()
+            ->disableOriginalClone()
+            ->disableArgumentCloning()
+            ->disallowMockingUnknownTypes()
+            ->getMock();
+
+        // Configure the stub.
+        $stub->method('doSomething')
+            ->willReturn('foop');
+
+        // Calling $stub->doSomething() will now return
+        // 'foo'.
+        $this->assertSame('foop', $stub->doSomething());
+    }
+
+    public function testReturnArgumentStub(): void
+    {
+        // Create a stub for the SomeClass class.
+        $stub = $this->createStub(Classtest::class);
+
+        // Configure the stub.
+        $stub->method('doSomething')
+            ->will($this->returnArgument(0));
+
+        // $stub->doSomething('foo') returns 'foo'
+        $this->assertSame('foo', $stub->doSomething('foo'));
+
+        // $stub->doSomething('bar') returns 'bar'
+        $this->assertSame('bar', $stub->doSomething('bar'));
     }
 
 //    public function testEquality(): void
