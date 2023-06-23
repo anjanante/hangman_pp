@@ -1,3 +1,3 @@
-# Install PhpUnit 
+# HangMan Game
 
-composer intsall
+Using a Hangman game to implement unit tests
