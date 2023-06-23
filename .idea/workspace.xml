@@ -20,79 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1752f747-442a-4da5-89cc-f3bcd4620bad" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/hangman.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hangman.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/Symfony/polyfill-ctype/Ctype.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/Symfony/polyfill-ctype/Ctype.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/Symfony/polyfill-ctype/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/Symfony/polyfill-ctype/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/Symfony/polyfill-ctype/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/Symfony/polyfill-ctype/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/Symfony/polyfill-ctype/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/Symfony/polyfill-ctype/bootstrap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/Symfony/polyfill-ctype/bootstrap80.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/Symfony/polyfill-ctype/bootstrap80.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/Symfony/polyfill-ctype/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/Symfony/polyfill-ctype/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/InstalledVersions.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/InstalledVersions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/include_paths.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/include_paths.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpunit/php-timer/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/phpunit/php-timer/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpunit/php-timer/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/phpunit/php-timer/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpunit/php-timer/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/phpunit/php-timer/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpunit/php-timer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/phpunit/php-timer/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpunit/php-timer/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/phpunit/php-timer/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpunit/php-timer/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/phpunit/php-timer/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpunit/php-timer/phpunit.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpunit/php-timer/src/Timer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/phpunit/php-timer/src/Timer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/phpunit/php-timer/tests/TimerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/phpunit/php-timer/tests/TimerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sebastian/diff/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sebastian/diff/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sebastian/diff/.php_cs" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sebastian/diff/.php_cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sebastian/diff/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sebastian/diff/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sebastian/diff/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sebastian/diff/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sebastian/diff/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sebastian/diff/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sebastian/diff/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sebastian/diff/build.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sebastian/diff/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sebastian/diff/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sebastian/diff/phpunit.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sebastian/diff/src/Chunk.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sebastian/diff/src/Chunk.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sebastian/diff/src/Diff.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sebastian/diff/src/Diff.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sebastian/diff/src/Differ.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sebastian/diff/src/Differ.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sebastian/diff/src/LCS/LongestCommonSubsequence.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sebastian/diff/src/LCS/LongestCommonSubsequence.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sebastian/diff/src/LCS/MemoryEfficientLongestCommonSubsequenceImplementation.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sebastian/diff/src/LCS/MemoryEfficientLongestCommonSubsequenceImplementation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sebastian/diff/src/LCS/TimeEfficientLongestCommonSubsequenceImplementation.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sebastian/diff/src/LCS/TimeEfficientLongestCommonSubsequenceImplementation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sebastian/diff/src/Line.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sebastian/diff/src/Line.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sebastian/diff/src/Parser.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sebastian/diff/src/Parser.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sebastian/diff/tests/ChunkTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sebastian/diff/tests/DiffTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sebastian/diff/tests/DifferTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sebastian/diff/tests/DifferTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sebastian/diff/tests/LCS/LongestCommonSubsequenceTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sebastian/diff/tests/LCS/MemoryEfficientImplementationTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sebastian/diff/tests/LCS/TimeEfficientImplementationTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sebastian/diff/tests/LCS/TimeEfficientImplementationTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sebastian/diff/tests/LineTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sebastian/diff/tests/ParserTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sebastian/diff/tests/ParserTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sebastian/diff/tests/fixtures/patch.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sebastian/diff/tests/fixtures/patch.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sebastian/diff/tests/fixtures/patch2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sebastian/diff/tests/fixtures/patch2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sebastian/environment/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sebastian/environment/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sebastian/environment/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sebastian/environment/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sebastian/environment/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sebastian/environment/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sebastian/environment/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sebastian/environment/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sebastian/environment/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sebastian/environment/build.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sebastian/environment/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sebastian/environment/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sebastian/environment/phpunit.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sebastian/environment/src/Console.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sebastian/environment/src/Console.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sebastian/environment/src/Runtime.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sebastian/environment/src/Runtime.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sebastian/environment/tests/ConsoleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sebastian/environment/tests/ConsoleTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/sebastian/environment/tests/RuntimeTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sebastian/environment/tests/RuntimeTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Hangman/Tests/GameTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Hangman/Tests/GameTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Hangman/Tests/WordTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Hangman/Tests/WordTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -109,8 +51,6 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
-      <path value="$PROJECT_DIR$/vendor/Symfony/polyfill-ctype" />
-      <path value="$PROJECT_DIR$/vendor/Symfony/yaml" />
       <path value="$PROJECT_DIR$/vendor/Symfony/Component" />
       <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
       <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
@@ -119,18 +59,27 @@
       <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
       <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
       <path value="$PROJECT_DIR$/vendor/composer" />
-      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
       <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
       <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
-      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects" />
-      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
       <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
-      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
     </include_path>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="width" value="1280" />
-    <option name="height" value="720" />
   </component>
   <component name="ProjectId" id="2RbSCbNjeUaz82nFWIJ7NUe5Pp8" />
   <component name="ProjectReloadState">
@@ -144,6 +93,13 @@
     <property name="FullScreen" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -156,6 +112,7 @@
       <option name="presentableId" value="Default" />
       <updated>1417426497895</updated>
       <workItem from="1687517184316" duration="787000" />
+      <workItem from="1687518045466" duration="7495000" />
     </task>
     <servers />
   </component>
@@ -172,6 +129,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -180,5 +138,19 @@
     <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1964" y="98" key="#com.intellij.ide.util.MemberChooser" timestamp="1687520063332">
+      <screen x="1440" y="0" width="1440" height="860" />
+    </state>
+    <state x="1964" y="98" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860/1440.0.1440.860@1440.0.1440.860" timestamp="1687520063332" />
+    <state x="1890" y="185" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1687520531192">
+      <screen x="1440" y="0" width="1440" height="860" />
+    </state>
+    <state x="1890" y="185" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1440.860/1440.0.1440.860@1440.0.1440.860" timestamp="1687520531192" />
+    <state x="1994" y="349" key="NewPhpFileDialog" timestamp="1687525963150">
+      <screen x="1440" y="0" width="1440" height="860" />
+    </state>
+    <state x="1994" y="349" key="NewPhpFileDialog/0.0.1440.860/1440.0.1440.860@1440.0.1440.860" timestamp="1687525963150" />
   </component>
 </project>

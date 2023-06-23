@@ -3,18 +3,32 @@
 namespace Hangman\Tests;
 
 use Hangman\Word;
+require(__DIR__.'/../../../src/functions.php');
+use PHPUnit\Framework\TestCase;
 
 
-class WordTest extends \PHPUnit_Framework_TestCase
+final class WordTest extends TestCase
 {
-    public function testGuessed()
+//    private $word;
+//
+//    public function setUp(): void{
+//        $this->word = new Word('php', ['p','h'], ['p','h']);
+//    }
+//
+    public function testException()
     {
-        $word = new Word('gobelins');
-        $this->assertFalse($word->isGuessed());
-
-        $word->guessed();
-        $this->assertTrue($word->isGuessed());
+        $this->expectException(\InvalidArgumentException::class);
+        tryLetter('5');
     }
+
+//    public function testEquality(): void
+//    {
+//        $this->assertTrue(tryLetter('p'));
+//        $this->assertEquals(
+//            [1, 2, 3, 4, 5, 6],
+//            [1, 2, 3, 4, 5, 6]
+//        );
+//    }
 
     // public function testGetWord()
     // {

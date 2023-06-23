@@ -4,8 +4,10 @@ namespace Hangman\Tests;
 
 use Hangman\Game;
 use Hangman\Word;
+use PHPUnit\Framework\TestCase;
 
-class GameTest extends \PHPUnit_Framework_TestCase
+//class GameTest extends \PHPUnit_Framework_TestCase
+final class GameTest extends TestCase
 {
     private $game;
     public static $dataGoodLetter = array(
@@ -28,7 +30,7 @@ class GameTest extends \PHPUnit_Framework_TestCase
         return self::$dataBadLetter;
     }
 
-    public function setUp(){
+    public function setUp(): void{
         $this->game = new Game(new Word('php'));
     }
 
@@ -70,6 +72,7 @@ class GameTest extends \PHPUnit_Framework_TestCase
         // echo Game::MAX_ATTEMPTS.'ggg';
         $this->assertEquals(Game::MAX_ATTEMPTS, $this->game->getRemainingAttempts());
     }
+
     // public function testGetRemainingAttempts()
     // {
     //     $game = new Game(new Word('php'));
