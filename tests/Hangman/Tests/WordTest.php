@@ -7,6 +7,8 @@ require(__DIR__.'/../../../src/functions.php');
 require_once(__DIR__.'/../../../src/Classtest.php');
 
 use Hangman\Classtest;
+use Hangman\Observer;
+use Hangman\Subject;
 use Hangman\Word;
 use PHPUnit\Framework\TestCase;
 
@@ -63,6 +65,51 @@ final class WordTest extends TestCase
         $this->assertSame('bar', $stub->doSomething('bar'));
     }
 
+    public function testObserversAreUpdated(): void
+    {
+        // Create a mock for the Observer class,
+        // only mock the update() method.
+        $observer = $this->createMock(Observer::class);
+
+        // Set up the expectation for the update() method
+        // to be called only once and with the string 'something'
+        // as its parameter.
+        $observer->expects($this->once())
+            ->method('update')
+            ->with($this->equalTo('something'));
+
+        // Create a Subject object and attach the mocked
+        // Observer object to it.
+        $subject = new Subject('My subject');
+        $subject->attach($observer);
+
+        // Call the doSomething() method on the $subject object
+        // which we expect to call the mocked Observer object's
+        // update() method with the string 'something'.
+        $subject->doSomething();
+    }
+
+    public function testErrorReported(): void
+    {
+        // Create a mock for the Observer class, mocking the
+        // reportError() method
+        $observer = $this->createMock(Observer::class);
+
+        $observer->expects($this->once())
+            ->method('reportError')
+            ->with(
+                $this->greaterThan(0),
+                $this->stringContains('Somethings'),
+                $this->anything()
+            );
+
+        $subject = new Subject('My subject');
+        $subject->attach($observer);
+
+        // The doSomethingBad() method should report an error to the observer
+        // via the reportError() method
+        $subject->doSomethingBad();
+    }
 //    public function testEquality(): void
 //    {
 //        $this->assertTrue(tryLetter('p'));
