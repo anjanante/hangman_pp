@@ -11,8 +11,8 @@ final class GameTest extends TestCase
 {
     private $game;
     public static $dataGoodLetter = array(
-        array('p'),
-        array('h'),
+        array('N'),
+        array('a'),
     );
 
     public static $dataBadLetter = array(
@@ -20,24 +20,24 @@ final class GameTest extends TestCase
         array('s'),
     );
     
-    public function getDataGoodLetter()
+    public static function getDataGoodLetter()
     {
         return self::$dataGoodLetter;
     }
 
-    public function getDataBadLetter()
+    public static function getDataBadLetter()
     {
         return self::$dataBadLetter;
     }
 
     public function setUp(): void{
-        $this->game = new Game(new Word('php'));
+        $this->game = new Game(new Word('Nant'));
     }
 
 
     public function testGameHasStart()
     {
-        $this->game->tryLetter('p');
+        $this->game->tryLetter('N');
         $this->assertFalse($this->game->isWon());
     }
 
@@ -48,6 +48,7 @@ final class GameTest extends TestCase
     {
         //skip test
         // $this->markTestSkipped('Work in progress...');
+        var_dump($letter);
         $this->game->tryLetter($letter);
         $this->assertTrue($this->game->isLetterFound($letter));
     }
@@ -63,7 +64,7 @@ final class GameTest extends TestCase
 
     public function testGameIsWonAfterAGoogWord()
     {
-        $this->game->tryWord('php');
+        $this->game->tryWord('Nant');
         $this->assertTrue($this->game->isWon());
     }
 

@@ -1,3 +1,4 @@
 ﻿vendor
 fichiers_source_php_tests_unitaires_simplifies_avec_phpunit.zip
 .idea/workspace.xml
+.phpunit.result.cache
