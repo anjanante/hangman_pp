@@ -2,6 +2,7 @@
 
 namespace Hangman;
 
+
 class Game 
 {
     const MAX_ATTEMPTS = 11;

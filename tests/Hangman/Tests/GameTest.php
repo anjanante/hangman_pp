@@ -48,8 +48,8 @@ final class GameTest extends TestCase
     {
         //skip test
         // $this->markTestSkipped('Work in progress...');
-        var_dump($letter);
-        $this->game->tryLetter($letter);
+        $letter = strtolower($letter);
+        $this->game->tryLetter($letter);        
         $this->assertTrue($this->game->isLetterFound($letter));
     }
 
